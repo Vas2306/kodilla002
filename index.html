@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodilla02</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navigation">
+        <div class="container">
+        <ul class="list-first">
+            <li class="item-first"><a href="">about</a>
+            <ul class="list-two">
+                <li class="item-two"><a href="">team</a></li>
+                <li class="item-two"><a href="">values</a></li>
+            </ul>
+            </li>  
+            <li class="item-first"><a href="">what we do</a></li>
+            <li class="item-first"><a href="">projects</a></li>
+            <li class="item-first"><a href="">contact</a></li>
+        </ul>    
+        </div> 
+    </nav>
+    <!--header-->
+    <header class="header">
+        <div class="header-inner">
+          <h1 class="title-header">hello,<br> we are <span class="title-header-bold">creatively</span></h1>
+            <p class="text-header">we build brands and products to bring big ideas into life</p>
+            <a class="btn btn-one" href="">see our work</a>  
+        </div>       
+    </header>
+    <main> 
+        <!-- our services -->
+        <section class="container">
+            <h2 class="title-services">our services</h2>
+            <ul class="list-services">
+                <li class="item-services">
+                    <h3 class="subtitle-services">design</h3>
+                    <p class="number-services">1</p>
+                    <p class="text-services">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dicta laborum qui a totam. Voluptas enim nam quis ducimus culpa.</p>
+                    <a class="btn btn-two" href="">reed more</a>
+                </li>
+                <li class="item-services">
+                    <h3 class="subtitle-services">code</h3>
+                    <p class="number-services">2</p>
+                    <p class="text-services">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dicta laborum qui a totam. Voluptas enim nam quis ducimus culpa.</p>
+                    <a class="btn btn-three" href="">reed more</a>
+                </li>
+                <li class="item-services">
+                    <h3 class="subtitle-services">marketing</h3>
+                    <p class="number-services">3</p>
+                    <p class="text-services">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dicta laborum qui a totam. Voluptas enim nam quis ducimus culpa.</p>
+                    <a class="btn btn-four" href="">reed more</a>
+                </li>
+            </ul>
+        </section>
+        <!-- our work -->
+        <section class="container">
+            <h2 class="work-title">our work</h2>
+            <ul class="work-list">
+                <li class="work-item">
+                    <ul class="img-list">
+                    <li class="img"><img src="./images/01.jpg" alt="vertigo" width="250"></li>
+                    <li class="img-item"><h3 class="work-subtitle">vertigo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae!</p>
+                    <p>Lorem, ipsum.</p>
+                    <a href="">reed more</a></li>
+                    </ul>  
+                </li>
+                <li class="work-item">
+                    <ul class="img-list">
+                    <li class="img">
+                    <img src="./images/02.jpg" alt="eloquence" width="250">
+                    </li>
+                    <li class="img-item">
+                    <h3 class="work-subtitle">eloquence</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae!</p>
+                    <p>Lorem, ipsum.</p>
+                    <a href="">reed more</a>
+                    </li>     
+                </ul>
+                </li>
+                <li class="work-item">
+                <ul class="img-list">
+                <li class="img">
+                <img src="./images/03.jpg" alt="lithe" width="250">
+                </li>
+                <li class="img-item">
+                    <h3 class="work-subtitle">lithe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae!</p>
+                    <p>Lorem, ipsum.</p>
+                    <a href="">reed more</a>        
+                    </li> 
+                </ul>
+                </li>
+                <li class="work-item">
+                <ul class="img-list">
+                <li class="img">
+                <img src="./images/04.jpg" alt="serendipity" width="250">
+                </li>
+                <li class="img-item">
+                    <h3 class="work-subtitle">serendipity</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae!</p>
+                    <p>Lorem, ipsum.</p>
+                    <a href="">reed more</a>      
+                    </li> 
+                </ul>
+                </li>
+            </ul>
+        </section>
+ <!--contact-->        
+        <section class="contact">
+        <h1 class="contakt-title">contact us</h1>    
+        <ul class="contact-list">
+        <li>   
+<!--form-->    
+        <form action="#" method="post" enctype="multipart/form-data">
+            <ul class="form-list">
+            <li>
+             <label for="fname">Your name</label><br>
+            <input type="text" id="fname" minlength="3" required/>   
+            </li>
+            <li>
+             <label for="email">Your e-mail</label><br>
+            <input type="email" id="email" required/>   
+            </li>
+            <li>
+             <label for="usersudjekt">Subject</label><br>
+            <input type="text" id="usersudjekt" required/>   
+            </li>
+            <li>
+             <label for="usersudjekt">Type your massage here</label><br>
+             <textarea type="text"></textarea>   
+            </li>
+            <li>
+            <button class="submit" type="button">Submit</button>
+            </li>
+        </ul>
+        </form>
+            </li>
+            <li>
+<!--address-->
+        <address>
+            <ul class="address-list">
+                <li class="address-item">
+                    <h2>sales specialist</h2>
+                    <p>Elinor Kinder</p>
+                </li>
+                <li class="address-item">
+                    <h2>address</h2>
+                    <p>299 Browning Lane</p>
+                    <p>Cortland</p>
+                    <p>13045 New York</p>
+                </li>
+                <li class="address-item">
+                    <h2>phone</h2>
+                    <p class="tel"><a href="tel:6078357016">607-835-7016</a></p>
+                </li>
+            </ul>
+        </address>
+            </li>
+        </ul>   
+        </section>
+    </main> 
+    <footer class="footer">
+        <div>
+        <ul class="list-footer">
+            <li class="item-footer"><a class="link-footer" href="#" aria-label="link Fasebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="item-footer"><a class="link-footer" href="#" aria-label="link Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="item-footer"><a class="link-footer" href="#" aria-label="link telegram"><i class="fa-brands fa-telegram"></i></a></li>
+            <li class="item-footer"><a class="link-footer" href="#" aria-label="link viber"><i class="fa-brands fa-viber"></i></a></li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>
